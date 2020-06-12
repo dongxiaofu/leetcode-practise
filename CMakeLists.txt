@@ -22,3 +22,8 @@ add_executable(test_496_02
         stack/496/02/Solution.h
         stack/496/02/Solution.cpp
         stack/496/02/test.cpp)
+
+add_executable(test_7_01
+        stack/7/01/Solution.h
+        stack/7/01/Solution.cpp
+        stack/7/01/test.cpp)
