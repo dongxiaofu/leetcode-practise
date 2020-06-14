@@ -27,3 +27,8 @@ add_executable(test_7_01
         stack/7/01/Solution.h
         stack/7/01/Solution.cpp
         stack/7/01/test.cpp)
+
+add_executable(test_1_01
+        array/1/01/Solution.h
+        array/1/01/Solution.cpp
+        array/1/01/test.cpp)
