@@ -37,3 +37,14 @@ add_executable(test_15_01
         array/15/01/Solution.h
         array/15/01/Solution.cpp
         array/15/01/test.cpp)
+
+#tree
+add_executable(test_94_01
+        tree/94/01/Solution.h
+        tree/94/01/Solution.cpp
+        tree/94/01/test.cpp)
+
+add_executable(test_94_02
+        tree/94/02/Solution.h
+        tree/94/02/Solution.cpp
+        tree/94/02/test.cpp)
