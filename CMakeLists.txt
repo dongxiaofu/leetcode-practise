@@ -33,6 +33,11 @@ add_executable(test_7_01
         stack/7/01/Solution.cpp
         stack/7/01/test.cpp)
 
+add_executable(test_03_01
+        stack/03/01/Solution.h
+        stack/03/01/Solution.cpp
+        stack/03/01/test.cpp)
+
 add_executable(test_1_01
         array/1/01/Solution.h
         array/1/01/Solution.cpp
