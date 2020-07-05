@@ -13,6 +13,11 @@ add_executable(test_1021_01
         stack/1021/01/Solution.cpp
         stack/1021/01/test.cpp)
 
+add_executable(test_682_01
+        stack/682/01/Solution.h
+        stack/682/01/Solution.cpp
+        stack/682/01/test.cpp)
+
 add_executable(test_1441_01
         stack/1441/01/Solution.h
         stack/1441/01/Solution.cpp
