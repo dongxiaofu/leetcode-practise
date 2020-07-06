@@ -3,6 +3,11 @@ project(leetcode_practise)
 
 set(CMAKE_CXX_STANDARD 14)
 #栈
+add_executable(test_71_01
+        stack/71/01/Solution.h
+        stack/71/01/Solution.cpp
+        stack/71/01/test.cpp)
+
 add_executable(test_225_01
         stack/225/01/Solution.h
         stack/225/01/Solution.cpp
