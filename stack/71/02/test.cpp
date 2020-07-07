@@ -1,5 +1,5 @@
 //
-// Created by chugang on 2020/7/6.
+// Created by chugang on 2020/7/7.
 //
 #include <iostream>
 #include "Solution.h"
@@ -15,5 +15,8 @@ int main() {
     string path3 = "/..";
     string result3 = solution.simplifyPath(path3);
     cout << result3 << endl;
+    string path4 = "/...";
+    string result4 = solution.simplifyPath(path4);
+    cout << result4 << endl;
     return 0;
 }

@@ -8,6 +8,14 @@ add_executable(test_71_01
         stack/71/01/Solution.cpp
         stack/71/01/test.cpp)
 
+add_executable(test_71_02
+        stack/71/02/Solution.h
+        stack/71/02/Solution.cpp
+        stack/71/02/test.cpp)
+
+add_executable(test_71_demo_stringstream_as
+        stack/71/demo/stringstream_as_demo.cpp)
+
 add_executable(test_225_01
         stack/225/01/Solution.h
         stack/225/01/Solution.cpp

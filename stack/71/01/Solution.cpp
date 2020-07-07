@@ -2,6 +2,7 @@
 // Created by chugang on 2020/7/6.
 //
 // 简化路径
+// 思路有问题吧，拆东墙补西墙，总会漏掉情况
 #include "Solution.h"
 
 string Solution::simplifyPath(std::string path) {
@@ -17,10 +18,10 @@ string Solution::simplifyPath(std::string path) {
                 }
             } else if (path[i] == '.') {
                 if (i + 1 < len && path[i + 1] == '.') {
-                    while (!temp.empty() && temp.top() == '/') {
+                    while (!temp.empty() && temp.top() == '/' && temp.size() > 1) {
                         temp.pop();
                     }
-                    if (!temp.empty()) temp.pop();
+                    if (!temp.empty() && temp.size() > 1) temp.pop();
                     i++;
                 }
             } else {
@@ -38,10 +39,9 @@ string Solution::simplifyPath(std::string path) {
     string result;
     int size = tempStr.size();
     for (int i = size - 1; i >= 0; i--) {
-        if(i == 0 && tempStr[i] == '/') continue;
+        if (i == 0 && tempStr[i] == '/' && size > 1) continue;
         result += tempStr[i];
     }
-
 
 
     return result;
